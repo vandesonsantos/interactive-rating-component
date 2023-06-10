@@ -1,0 +1,93 @@
+main{
+    background-color: #121417;
+    color: #ffffff;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner{
+    background-color:#252d37;
+    width: 375px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.conteiner .image-estrela{
+    background-color: #7c879813;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.conteiner .titulo{
+    font-size: 2.7rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.conteiner .feedback{
+    font-size: 1.4rem;
+    color: #959eac;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.conteiner .avaliacoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.conteiner .avaliacoes .item{
+    background-color: #7c879813;
+    color: #959eac;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.conteiner .avaliacoes .nota-selecionada{
+    background-color: #959eac;
+    color: #ffffff;
+}
+
+.conteiner .avaliacoes .item:hover{
+    background-color: #fb7413;
+    color: #ffffff;
+}
+
+.conteiner .btn{
+    background-color: #fb7413;
+    color: #ffffff;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.conteiner .btn:hover{
+    background-color: #ffffff;
+    color: #fb7413;
+}
+
+.conteiner.none{
+    display: none;
+}
